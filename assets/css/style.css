@@ -1,0 +1,24 @@
+
+header {
+    background-color: rgb(10, 117, 170);   
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
+  /* added css to the header. changed the font, color, background color and gave it a border. */
+
+  /*added css to the links to get rid of the underline and change the text color*/
+li a {
+    color: black;
+    text-decoration: none;
+   
+}
+
+/*added css to the footer. Gave the footer a border and made same changes as header.*/
+
+footer {
+    background-color: rgb(10, 117, 170);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
