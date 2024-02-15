@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <!--added a link to the css stylesheet-->
-    <link rel="stylesheet"
-        href="C:\Users\seth\bootcamp\challenges\challenge2\challenge2-css-portfolio\assets\css\style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
         <!--created a nav tag with links inside of a list to my about me, work and contact information.-->
-        <section id="about me">
+        <section class="header">
             <h1>My Portfolio</h1>
             <nav>
                 <ul>
@@ -25,29 +24,33 @@
         </section>
     </header>
     <!--added about me section-->
-    <section>
+    <section id="aboutMe">
         <h2>About Me</h2>
-        <p>I am a life long learner and believe in having a growth mindset. Learning code has become my new favorite
-            hobbie that I hope to turn into a career.</p>
-        <!-- added an image of myself for a profile picture -->
-        <img src="C:\Users\seth\Pictures\Camera Roll\WIN_20240210_14_20_25_Pro.jpg" alt="picture of me" width="300px"
+        <img src="./WIN_20240210_14_20_25_Pro.jpg" alt="picture of me" width="300px"
             height="300px">
-        <img src="" alt="">
+        <p>I am a life long learner and believe in having a growth mindset. Learning code has become my new favorite
+            hobbie that I hope to turn into a career. I currently spend my days working out, learning to cook, working and attending the MSU bootcamp.
+
+        </p>
+        <!-- added an image of myself for a profile picture -->
+        
     </section>
+    
     <!--added a work section to talk about my nonexistent work as a coder since I just started.-->
-    <section>
-        <h2>Work</h2>
-        <p>Since I just started coding I don't really have any work to show yet.</p>
+    <section class="myWork">
+        <h2 id="work"><em>Work</em></h2>
+        <p><strong>Since I just started coding I don't really have any work to show yet.</strong></p>
 
     </section>
 </body>
 <!--added a footer for the contact me part of the page.-->
-<footer>
+<footer class="footer content">
     <!-- added id of contact so that users can jump to the contact section with the contact link at the top of the page -->
     <div id="contact">
         <h2>contact</h2>
         <ul>
             <li>Phone:***-***-****</li>
+            <!--added a link so that you can click on email or github and it will direct you to the email or github page-->
             <li>Email: <a href="mailto:seth_philpot@yahoo.com">seth_philpot@yahoo.com</a></li>
             <li>Github <a href="https://github.com/seth89">seth89</a></li>
         </ul>
