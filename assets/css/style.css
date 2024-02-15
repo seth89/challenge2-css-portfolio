@@ -1,4 +1,7 @@
 
+
+
+
 header {
     background-color: rgb(10, 117, 170);   
     color: black;
@@ -14,11 +17,68 @@ li a {
    
 }
 
+/*added a header, a nav, and a ul to target different parts of the header element*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+}
+
+.header nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/*added a border around the about me*/
+
+#aboutMe {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+ .myWork{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 100px;
+}
+
+
 /*added css to the footer. Gave the footer a border and made same changes as header.*/
 
-footer {
+.footer {
+    display: flex;
     background-color: rgb(10, 117, 170);
     color: black;
     font-family: 'Courier New', Courier, monospace;
     border: 2px solid black;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+            /* Height of the footer*/
+    height: 60px;
 }
+/* added a div and footer that reaches the ul to make adjustments to the content inside of the footer*/
+div{
+    display: flex;
+    width: 90%;
+}
+
+.footer div ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
