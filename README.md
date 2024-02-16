@@ -6,3 +6,8 @@ This is a portfolio that showcases my html and css skills as of right now. There
 
 ![alt text](image.png)
 
+## Github challenge 2 link
+https://github.com/seth89/challenge2-css-portfolio/deployments/github-pages
+
+## link to website
+http://127.0.0.1:5500/challenge2-css-portfolio/index.html#contact
